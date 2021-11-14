@@ -1,0 +1,16 @@
+	i = 1
+	j = 1
+	k = 0
+loop:
+	if k >= 100 goto end
+	if j >= 20 goto fl
+tr:
+	j  = i
+	k = k + 1
+	goto out
+fl:
+	j = k
+	k = k + 2
+out:
+	goto loop
+end:
